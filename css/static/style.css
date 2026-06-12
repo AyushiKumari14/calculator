@@ -1,0 +1,38 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    font-style: italic;
+    background: #7b0a85;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background: rgb(109, 1, 70);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 65);
+
+}
+
+input,select,button{
+    padding:10px;
+    margin:10px;
+    width: 200px;
+}
+
+button{
+    background: rgb(243, 96, 181);
+    color: rgb(133, 67, 113);
+    border:#6a035e;
+    border-color: rgb(150, 6, 54);
+    cursor:col-resize;
+
+}
+
+button:hover{
+    background: rgb(70, 245, 184);
+
+}
